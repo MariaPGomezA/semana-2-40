@@ -11,4 +11,5 @@ https://images.app.goo.gl/h4SPxhvAUUqA1A8D7
 
 # Descripción
 
-Se elaboran los componentes de menú y banner, se anida el menú dentro del banner.
+Se elaboran los componentes de menú y banner, se anida el menú dentro del banner, se utiliza ícono de Bootstrap como 
+imagen de la página.
