@@ -11,7 +11,7 @@
         <div>
             <h1 class=" ml-3 " href="">Semana-2-40</h1>
         </div>
-        <div class="navbar-nav  mr-auto ml-auto h4">
+        <div class="navbar-nav  mr-auto ml-auto h5">
             <a class="nav-link mr-5 f" href="#">Inicio</a>
             <a class="nav-link mr-5" href="#news">Noticias</a>
             <a class="nav-link mr-5" href="#team">Miembros</a>
