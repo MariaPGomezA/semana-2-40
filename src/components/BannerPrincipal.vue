@@ -11,7 +11,7 @@
       <div class="carousel-inner">
         <div
           class="carousel-item active"
-          style="background-image: url(./zombie.jpg)">
+          style="background-image: url(./bannerimagenes/zombie.jpg)">
           <div class="container">
             <h1>Estación Zombie 2 : Península</h1>
             <p>
@@ -21,7 +21,7 @@
             </p>
           </div>
         </div>
-        <div class="carousel-item" style="background-image: url(./tenet.jpg)">
+        <div class="carousel-item" style="background-image: url(./bannerimagenes/tenet.jpg)">
           <div class="container">
             <h1>Tenet</h1>
             <p>
@@ -33,7 +33,7 @@
         </div>
         <div
           class="carousel-item"
-          style="background-image: url(./jovenesbrujas.jpg)">
+          style="background-image: url(./bannerimagenes/jovenesbrujas.jpg)">
           <div class="container">
             <h1>Jóvenes brujas: Nueva hermandad</h1>
             <p>
