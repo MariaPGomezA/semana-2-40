@@ -1,16 +1,19 @@
 <template>
   <div id="app">
 
+    <banner-principal> </banner-principal>
     <div class="container-fluid">
       <section-api></section-api>
 
-    <banner-principal> </banner-principal>
-    <div class= "container-fluid">
-      <div class= "row justify-content-center mb-5" >
-        <div class="col mt-5" v-for="(item, index) of equipo" :key="index">
-         <team-card v-bind:member="item"></team-card>
+
+      <div class="container-fluid">
+        <div class="row justify-content-center mb-5">
+          <div class="col mt-5" v-for="(item, index) of equipo" :key="index">
+            <team-card v-bind:member="item"></team-card>
+          </div>
+
+
         </div>
-       </div>
       </div>
     </div>
   </div>
@@ -29,9 +32,8 @@ export default {
     SectionApi,
     BannerPrincipal,
     TeamCard,
-  },
-};
-</script>
+    },
+
 
   data() {
     return {
@@ -76,11 +78,9 @@ export default {
             "Soy comunicador audiovisual de la Universidad de La Sabana. Vivo en Bogotá. Mi hobby es hacer vudeojuegos.",
           rol: "Desarrollador Frontend",
           image: "./bannerimagenes//FG.jpg",
-        },
-      ],
-    };
-  },
-};
-
-
-
+        }
+      ]
+    }
+  }
+}
+</script>
