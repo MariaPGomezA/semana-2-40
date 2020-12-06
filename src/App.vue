@@ -1,28 +1,38 @@
 <template>
   <div id="app">
-    <banner-principal> </banner-principal>
-  
 
-  <div class= "container-fluid">
-  <div class= "row justify-content-center mb-5" >
-    <div class="col mt-5" v-for="(item, index) of equipo" :key="index">
-      <team-card v-bind:member="item"></team-card>
+    <div class="container-fluid">
+      <section-api></section-api>
+
+    <banner-principal> </banner-principal>
+    <div class= "container-fluid">
+      <div class= "row justify-content-center mb-5" >
+        <div class="col mt-5" v-for="(item, index) of equipo" :key="index">
+         <team-card v-bind:member="item"></team-card>
+        </div>
+       </div>
+      </div>
     </div>
   </div>
-</div>
-</div>
 </template>
 
 <script>
+
+import SectionApi from "./components/SectionApi.vue";
+
 import BannerPrincipal from "./components/BannerPrincipal.vue";
 import TeamCard from "./components/TeamCard.vue";
 
 export default {
   name: "App",
   components: {
+    SectionApi,
     BannerPrincipal,
     TeamCard,
   },
+};
+</script>
+
   data() {
     return {
       title: "Miembros en VUE",
@@ -71,7 +81,6 @@ export default {
     };
   },
 };
-</script>
 
 
 
