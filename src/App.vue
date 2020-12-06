@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-
+    
     <banner-principal> </banner-principal>
     <div class="container-fluid">
       <section-api></section-api>
@@ -10,12 +10,14 @@
         <div class="row justify-content-center mb-5">
           <div class="col mt-5" v-for="(item, index) of equipo" :key="index">
             <team-card v-bind:member="item"></team-card>
+            
           </div>
-
+          
 
         </div>
       </div>
     </div>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -25,6 +27,7 @@ import SectionApi from "./components/SectionApi.vue";
 
 import BannerPrincipal from "./components/BannerPrincipal.vue";
 import TeamCard from "./components/TeamCard.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
@@ -32,6 +35,7 @@ export default {
     SectionApi,
     BannerPrincipal,
     TeamCard,
+    Footer,
     },
 
 
