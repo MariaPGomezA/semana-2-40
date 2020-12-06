@@ -6,6 +6,7 @@
   </div>
 </template>
 
+
 <script>
 import SectionApi from "./components/SectionApi.vue";
 
@@ -16,5 +17,3 @@ export default {
   },
 };
 </script>
-
-
