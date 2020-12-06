@@ -7,6 +7,7 @@
 <footer class="page-footer bg-secondary text-white pt-4">
     
     <!-- Footer Text -->
+    
     <div class="container-fluid text-center text-md-left">
 
         <!-- Grid row -->
